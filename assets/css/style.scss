@@ -7,43 +7,43 @@
 
 .highlight {
   .lineno {
-    color: #999999;
+    color: #999999!important;
   }
 }
 
 .code-header {
   &::before {
-    $dot-size: 0.75rem;
-    $dot-margin: 0.5rem;
+    $dot-size: 0.75rem!important;
+    $dot-margin: 0.5rem!important;
 
-    background-color: #ED6C5F;
+    background-color: #ED6C5F!important;
     box-shadow: ($dot-size + $dot-margin) 0 0 #F4BF4F,
-      ($dot-size + $dot-margin) * 2 0 0 #62C655;
+      ($dot-size + $dot-margin) * 2 0 0 #62C655!important;
   }
 
   /* the label block */
   span {
     /* label icon */
     i {
-      color: #999999;
+      color: #999999!important;
     }
 
     /* label text */
     &::after {
-      color: #999999;
+      color: #999999!important;
     }
   }
 
   button {
     i {
-      color: #999999;
+      color: #999999!important;
     }
   }
 }
 
 code {
   &.highlighter-rouge {
-    color: #BF2D44;
+    color: #BF2D44!important;
     // background-color: #FCF6E5;
   }
 }
