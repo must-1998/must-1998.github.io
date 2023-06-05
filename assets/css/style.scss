@@ -5,48 +5,6 @@
 
 /* append your custom style below */
 
-.card-thumb-small {
-  border-radius: 8px;
-  margin-right: 20px;
-  height: 120px;
-  display: block;
-  object-fit: cover;
-  float: left;
-}
-
-.card-thumb-medium {
-  width: 100%;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  max-height: 125px;
-  display: block;
-  object-fit: cover;
-  float: left;
-}
-
-.card-thumb-large {
-  width: 100%;
-  margin-bottom: 15px;
-  border-radius: 8px;
-  max-height: 300px;
-  display: block;
-  object-fit: cover;
-  float: left;
-}
-
-@media all and (max-width: 830px) {
-  .card-thumb-small {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-}
-
-@media all and (min-width: 831px) {
-  .card-thumb-small {
-    width: 25%;
-  }
-}
-
 .highlight {
   .lineno {
     color: #999999;
