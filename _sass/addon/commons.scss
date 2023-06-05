@@ -1378,11 +1378,12 @@ $btn-mb: 0.5rem;
     p {
       width: auto;
       &:last-child {
-        &::before {
+        //&::before {
           content: '-';
-          margin: 0 0.75rem;
+          //margin: 0 0.75rem;
+          margin: 0 0.25rem;
           opacity: 0.8;
-        }
+        //}
       }
     }
   }
