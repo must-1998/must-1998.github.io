@@ -42,7 +42,7 @@ jobs:
 
       - name: Build Assets
         run: npm i && npm run build
-        
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
