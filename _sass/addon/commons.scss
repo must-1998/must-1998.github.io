@@ -1249,7 +1249,7 @@ $btn-mb: 0.5rem;
 }
 
 /* hide sidebar and panel */
-@media all and (width <= 1080px) {
+@media all and (width <= 849px) {
   @mixin slide($append: null) {
     $basic: transform 0.4s ease;
 
@@ -1360,7 +1360,7 @@ $btn-mb: 0.5rem;
 }
 
 /* Sidebar is visible */
-@media all and (width >= 1081px) {
+@media all and (width >= 850px) {
   /* Solved jumping scrollbar */
   html {
     overflow-y: scroll;
