@@ -6,7 +6,7 @@ on:
       - "docs"
     paths-ignore:
       - ".github/**"
-      - "!.github/workflows/ci.yml"
+      - "!.github/workflows/jekyll.yml"
       - ".gitignore"
       - "README.md"
       - "LICENSE"
