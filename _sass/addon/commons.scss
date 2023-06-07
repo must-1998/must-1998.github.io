@@ -1459,7 +1459,7 @@ $btn-mb: 0.5rem;
 }
 
 /* panel hidden */
-@media all and (width <= 1199px) {
+@media all and (max-width: 1199px) {
   #panel-wrapper {
     display: none;
   }
