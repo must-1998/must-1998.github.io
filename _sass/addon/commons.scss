@@ -1105,15 +1105,15 @@ $btn-mb: 0.5rem;
   background-color: var(--main-bg);
   position: relative;
   min-height: calc(100vh - $footer-height-mobile);
-  text-align: justify;
+  //text-align: justify;
   @include pl-pr(0);
 }
 
-#main-wrapper::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-}
+//#main-wrapper::after {
+//  content: "";
+//  display: inline-block;
+//  width: 100%;
+//}
 
 #topbar-wrapper.row,
 #main > .row,
