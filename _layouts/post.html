@@ -2,11 +2,11 @@
 layout: page
 refactor: true
 panel_includes:
-  - toc
+- toc
 tail_includes:
-  - related-posts
-  - post-nav
-  - comments
+- related-posts
+- post-nav
+- comments
 ---
 
 {% include lang.html %}
@@ -14,37 +14,47 @@ tail_includes:
 <h1 data-toc-skip>{{ page.title }}</h1>
 
 <div class="post-meta text-muted">
+
+  <div class="d-flex justify-content-between">
     <!-- published date -->
+    <div>
     <span>
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
     </span>
 
-    <!-- lastmod date -->
-    {% if page.last_modified_at and page.last_modified_at != page.date %}
-    <span>
+      <!-- lastmod date -->
+      {% if page.last_modified_at and page.last_modified_at != page.date %}
+      <span>
       {{ site.data.locales[lang].post.updated }}
       {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
     </span>
-    {% endif %}
-
-  {% if page.image %}
-    {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
-    {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
-    {% capture alt %}alt="{{ page.image.alt | default: "Preview Image" }}"{% endcapture %}
-
-    {% capture lqip %}
-      {% if page.image.lqip %}
-        lqip="{{ page.image.lqip }}"
       {% endif %}
-    {% endcapture %}
-
-    <div class="mt-3 mb-3">
-      <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip | strip }}>
-      {%- if page.image.alt -%}
-        <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
-      {%- endif -%}
     </div>
+
+    <div>
+      <!-- 阅读量 -->
+      <span><em id="busuanzi_container_site_pv" class="fa-regular fa-eye"></em><i
+        id="busuanzi_value_site_pv"></i></span>
+
+    </div>
+  </div>
+  {% if page.image %}
+  {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+  {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+  {% capture alt %}alt="{{ page.image.alt | default: "Preview Image" }}"{% endcapture %}
+
+  {% capture lqip %}
+  {% if page.image.lqip %}
+  lqip="{{ page.image.lqip }}"
+  {% endif %}
+  {% endcapture %}
+  <div class="mt-3 mb-0">
+    <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip | strip }}>
+    {%- if page.image.alt -%}
+    <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+    {%- endif -%}
+  </div>
   {% endif %}
 
   <div class="d-flex justify-content-between">
@@ -76,7 +86,6 @@ tail_includes:
     </div>
 
   </div> <!-- .d-flex -->
-
 </div> <!-- .post-meta -->
 
 <div class="post-content">
@@ -90,8 +99,8 @@ tail_includes:
   <div class="post-meta mb-3">
     <i class="far fa-folder-open fa-fw me-1"></i>
     {% for category in page.categories %}
-      <a href='{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/'>{{ category }}</a>
-      {%- unless forloop.last -%}, {%- endunless -%}
+    <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+    {%- unless forloop.last -%}, {%- endunless -%}
     {% endfor %}
   </div>
   {% endif %}
@@ -100,12 +109,12 @@ tail_includes:
   {% if page.tags.size > 0 %}
   <div class="post-tags">
     <i class="fa fa-tags fa-fw me-1"></i>
-      {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-          class="post-tag no-text-decoration" >
-        {{- tag -}}
-      </a>
-      {% endfor %}
+    {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+       class="post-tag no-text-decoration">
+      {{- tag -}}
+    </a>
+    {% endfor %}
   </div>
   {% endif %}
 
@@ -115,13 +124,13 @@ tail_includes:
 
       {% if site.data.locales[lang].copyright.license.template %}
 
-        {% capture _replacement %}
-        <a href="{{ site.data.locales[lang].copyright.license.link }}">
-          {{ site.data.locales[lang].copyright.license.name }}
-        </a>
-        {% endcapture %}
+      {% capture _replacement %}
+      <a href="{{ site.data.locales[lang].copyright.license.link }}">
+        {{ site.data.locales[lang].copyright.license.name }}
+      </a>
+      {% endcapture %}
 
-        {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+      {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
 
       {% endif %}
     </div>
