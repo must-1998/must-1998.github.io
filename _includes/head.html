@@ -87,6 +87,17 @@
 
   <!-- JavaScript -->
 
+  <!-- 百度统计 -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?afd021c01e20d5229e7f0e0e5399b433";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}
