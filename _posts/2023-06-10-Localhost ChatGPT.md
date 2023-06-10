@@ -1,7 +1,7 @@
 ---
 title: 本地安装 ChatGPT
 author: xiaoma
-date: 2023-06-08 11:33:00 +0800
+date: 2023-06-10 11:33:00 +0800
 categories: [ 工具效率 ]
 tags: [ ChatGPT ]
 math: true
