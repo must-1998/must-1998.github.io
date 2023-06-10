@@ -1,13 +1,17 @@
 ---
-title: Writing a New Post
+title: 教程一：文章元数据设置
 author: cotes
-date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [writing]
+date: 2023-06-06 14:10:00 +0800
+categories: [博客教程]
+tags: [教程]
 render_with_liquid: false
+image:
+  path: /assets/images/devices-mockup.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-本教程将指导您如何在 _Chirpy_ 模板中编写文章，即使您之前使用过Jekyll，也值得阅读，因为许多功能需要设置特定的变量。
+本教程将指导您如何在 _Xiaoma_ 中编写文章，即使您之前使用过Jekyll，也值得阅读，因为许多功能需要设置特定的变量。
 
 创建一个名为 `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} 的新文件，并将其放置在根目录的 `_posts`{: .filepath} 中。请注意，`EXTENSION`{: .filepath} 必须是 `md`{: .filepath} 和`markdown`{: .filepath} 中的一个。如果您想节省创建文件的时间，请考虑使用插件 [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) 来完成此操作。
 

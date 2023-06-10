@@ -1,10 +1,9 @@
 ---
-title: Text and Typography
+title: 教程二：文章版式设置
 author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
-pin: true
+date: 2023-06-08 11:33:00 +0800
+categories: [博客教程]
+tags: [教程]
 math: true
 mermaid: true
 image:
@@ -13,7 +12,7 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-这篇文章是为了展示在[**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork)上渲染Markdown语法，您也可以将其作为写作示例。现在，让我们开始看一下文本和排版。
+这篇文章是为了展示在[**Xiaoma**](https://maxwell-yolo.space)上渲染Markdown语法，您也可以将其作为写作示例。现在，让我们开始看一下文本和排版。
 
 ## 标题
 
