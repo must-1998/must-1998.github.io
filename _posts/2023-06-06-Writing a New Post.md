@@ -280,7 +280,7 @@ image:
 ---
 ```
 
-> 您可以在文章 [_教程二：文章版式设置_](/posts/text-and-typography/) 的预览图像中观察到 LQIP。
+> 您可以在文章 [_教程二：文章版式设置_](https://maxwell-yolo.space/posts/text-and-typography) 的预览图像中观察到 LQIP。
 
 
 对于普通图像：
