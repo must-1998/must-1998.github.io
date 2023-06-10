@@ -13,13 +13,9 @@ tail_includes:
 
 <h1 data-toc-skip>{{ page.title }}</h1>
 
-<!--  月度次数统计-->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="post-meta text-muted">
 
-  <div class="d-flex justify-content-between">
     <!-- published date -->
-    <div>
     <span>
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
@@ -32,15 +28,7 @@ tail_includes:
       {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
     </span>
       {% endif %}
-    </div>
 
-    <div>
-      <!-- 阅读量 -->
-      <span><em id="busuanzi_container_site_pv" class="fa-regular fa-eye"></em><i
-        id="busuanzi_value_site_pv"></i></span>
-
-    </div>
-  </div>
   {% if page.image %}
   {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
   {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
