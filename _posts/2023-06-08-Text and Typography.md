@@ -1,15 +1,15 @@
 ---
 title: 教程二：文章版式设置
-author: cotes
+author: xiaoma
 date: 2023-06-08 11:33:00 +0800
 categories: [博客教程]
 tags: [教程]
 math: true
 mermaid: true
+img_path: /assets/images/
 image:
-  path: /assets/images/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: pexels-pixabay-259915.jpg
+  lqip: lazyload.jpg
 ---
 
 这篇文章是为了展示在[**Xiaoma**](https://maxwell-yolo.space)上渲染Markdown语法，您也可以将其作为写作示例。现在，让我们开始看一下文本和排版。
@@ -127,6 +127,7 @@ fi;
 ## 数学公式
 
 使用 [**MathJax**](https://www.mathjax.org/) 渲染的数学公式：
+
 $$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
 
 当 $a \ne 0$时, $ax^2 + bx + c = 0$有两个解，它们分别是：

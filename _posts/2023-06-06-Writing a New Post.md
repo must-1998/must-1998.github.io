@@ -1,14 +1,14 @@
 ---
 title: 教程一：文章元数据设置
-author: cotes
+author: xiaoma
 date: 2023-06-06 14:10:00 +0800
 categories: [博客教程]
 tags: [教程]
 render_with_liquid: false
+img_path: /assets/images/
 image:
-  path: /assets/images/devices-mockup.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  path: pexels-eric-sanman-5111271.jpg
+  lqip: lazyload.jpg
 ---
 
 本教程将指导您如何在 _Xiaoma_ 中编写文章，即使您之前使用过Jekyll，也值得阅读，因为许多功能需要设置特定的变量。
