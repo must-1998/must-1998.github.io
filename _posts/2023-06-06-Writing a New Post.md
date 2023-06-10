@@ -5,10 +5,9 @@ date: 2023-06-06 14:10:00 +0800
 categories: [博客教程]
 tags: [教程]
 render_with_liquid: false
-img_path: /assets/images/
 image:
-  path: pexels-eric-sanman-5111271.jpg
-  lqip: lazyload.jpg
+  path: /assets/images/pexels-eric-sanman-5111271.jpg
+  lqip: /assets/images/lazyload.jpg
 ---
 
 本教程将指导您如何在 _Xiaoma_ 中编写文章，即使您之前使用过Jekyll，也值得阅读，因为许多功能需要设置特定的变量。

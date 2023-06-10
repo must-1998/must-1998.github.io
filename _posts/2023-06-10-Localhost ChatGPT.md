@@ -6,10 +6,9 @@ categories: [ 工具效率 ]
 tags: [ ChatGPT ]
 math: true
 mermaid: true
-img_path: /assets/images/
 image:
-  path: chatgpt.jpg
-  lqip: lazyload.jpg
+  path: /assets/images/chatgpt.jpg
+  lqip: /assets/images/lazyload.jpg
   alt: ChatGPT
 ---
 
@@ -42,7 +41,7 @@ ChatGPT 被广泛应用于各种场景，包括：
 
    安装完成后，打开Docker可能会提示需要升级当前的Windows子系统：
 
-   ![Docker](docker-wsl.jpg){: width="900" height="600" }
+   ![Docker](/assets/images/docker-wsl.jpg){: width="900" height="600" }
 
    按照页面提示，在`CMD`中输入以下代码，等待更新完成即可
 
@@ -66,7 +65,7 @@ ChatGPT 被广泛应用于各种场景，包括：
 
     也可以在Docker Desktop中手动启动：
 
-    ![Docker Run](docker-chatgpt.jpg){: width="900" height="600" }
+    ![Docker Run](/assets/images/docker-chatgpt.jpg){: width="900" height="600" }
 
 4. 获取Access TOKEN：[http://chat.openai.com/api/auth/session](http://chat.openai.com/api/auth/session)
 

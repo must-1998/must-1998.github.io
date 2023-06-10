@@ -6,10 +6,9 @@ categories: [博客教程]
 tags: [教程]
 math: true
 mermaid: true
-img_path: /assets/images/
 image:
-  path: pexels-pixabay-259915.jpg
-  lqip: lazyload.jpg
+  path: /assets/images/pexels-pixabay-259915.jpg
+  lqip: /assets/images/lazyload.jpg
 ---
 
 这篇文章是为了展示在[**Xiaoma**](https://maxwell-yolo.space)上渲染Markdown语法，您也可以将其作为写作示例。现在，让我们开始看一下文本和排版。
