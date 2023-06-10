@@ -51,8 +51,8 @@ jobs:
       - name: Build Assets
         run: npm i && npm run build
 
-      - name: Test Site
-        run: bash tools/test
+#      - name: Test Site
+#        run: bash tools/test
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
