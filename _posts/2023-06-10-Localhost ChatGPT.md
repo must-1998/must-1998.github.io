@@ -3,7 +3,7 @@ title: 本地搭建 ChatGPT
 author: xiaoma
 date: 2023-06-10 11:33:00 +0800
 categories: [工具效率]
-tags: [ ChatGPT ]
+tags: [ChatGPT,AI]
 math: true
 mermaid: true
 image:
