@@ -1,7 +1,7 @@
 ---
 title: 教程一：文章元数据设置
 author: xiaoma
-date: 2023-06-06 14:10:00 +0800
+date: 2022-12-12 14:10:00 +0800
 categories: [博客教程]
 tags: [教程]
 render_with_liquid: false

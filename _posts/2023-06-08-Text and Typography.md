@@ -1,7 +1,7 @@
 ---
 title: 教程二：文章版式设置
 author: xiaoma
-date: 2023-06-08 11:33:00 +0800
+date: 2022-12-25 11:33:00 +0800
 categories: [博客教程]
 tags: [教程]
 math: true
