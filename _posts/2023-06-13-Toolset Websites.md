@@ -1,7 +1,7 @@
 ---
 title: 工具集
 author: xiaoma
-date: 2023-06-12 23:33:00 +0800
+date: 2023-06-13 10:33:00 +0800
 categories: [工具效率]
 tags: [工具集]
 image:
@@ -16,7 +16,7 @@ image:
 
 AI工具集专注于收录和推荐国内外热门、创意、有趣、前沿的AI工具和网站，该站点收录了国内外数百个不同类型的AI工具，每日更新和添加最新AI工具，包括不限于AI写作工具、AI图像生成、AI音频转换、AI视频制作、AI编程开发、AI创意设计等分类，以满足你的不同需求。
 
-![AI-工具集](/assets/images/AI-set.jpg)
+![AI-工具集](/assets/images/ai-set.jpg)
 _AI-工具集_
 
 网站地址：[_https://ai-bot.cn/_](https://ai-bot.cn/)
@@ -52,7 +52,7 @@ _Tables Generator_
 
 该网站是基于MathJax实现的便捷LaTeX公式编辑器，支持导出SVG矢量图、高清PNG位图、MathML代码以及SVGCode，并且可根据需要自定义加载TeX扩展包，实现功能拓展。
 
-![LaTex Live](/assets/images/latxlive.jpg)
+![LaTex Live](/assets/images/latexlive.jpg)
 _LaTex Live_
 
 网站地址：[_https://www.latexlive.com/_](https://www.latexlive.com/)
