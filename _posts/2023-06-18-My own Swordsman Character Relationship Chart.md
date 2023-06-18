@@ -287,23 +287,15 @@ graph.render("demo.html")
 ### 最终效果
 > 有个小Bug，markdown中嵌入关系图，人物头像不显示，还在定位问题，后续尝试修复。
 {: .prompt-danger }
-> 
-<html><head>
-    <meta charset="UTF-8">
-    <title>Awesome-pyecharts</title>
-                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
 
-</head>
-<body>
+<div>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
     <div id="f18c219426c541dcb737ef3ae1540dce" class="chart-container" style="width: 100%; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;" _echarts_instance_="ec_1687058797649"><div style="position: relative; width: 1675px; height: 500px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"><canvas data-zr-dom-id="zr_0" width="2512" height="750" style="position: absolute; left: 0px; top: 0px; width: 1675px; height: 500px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas></div><div class="" style="position: absolute; display: block; border-style: solid; white-space: nowrap; z-index: 9999999; box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 10px; background-color: rgb(255, 255, 255); border-width: 0px; border-radius: 4px; color: rgb(102, 102, 102); font: 14px / 21px &quot;Microsoft YaHei&quot;; padding: 5px; top: 0px; left: 0px; transform: translate3d(1014px, 46px, 0px); border-color: rgb(145, 204, 117); pointer-events: none; visibility: hidden; opacity: 0;">姓名：断指轩辕<br>职业：千堵之王<br>称号：断指<br>武器：出老千<br>名言：我吃的盐比你吃的米还多呢！<br>演员：张少华<br>特点：教子有方</div></div>
     <script>
         var chart_f18c219426c541dcb737ef3ae1540dce = echarts.init(
             document.getElementById('f18c219426c541dcb737ef3ae1540dce'), 'white', {renderer: 'canvas'});
-            
 
-    
-    
-        var option_f18c219426c541dcb737ef3ae1540dce = {
+    var option_f18c219426c541dcb737ef3ae1540dce = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -988,9 +980,7 @@ graph.render("demo.html")
                 chart_f18c219426c541dcb737ef3ae1540dce.resize();
             })
     </script>
-
-
-</body></html>
+</div>
 
 ## 后续优化
 
