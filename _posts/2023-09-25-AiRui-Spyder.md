@@ -11,14 +11,14 @@ image:
   lqip: /assets/images/lazyload.jpg
 ---
 
-艾瑞咨询持续深耕商业决策服务领域，是一家助力客户提升认知水平、盈利能力和综合竞争力的企业。本文档介绍了如何使用Python从艾瑞网爬取图片并将其生成为一个PPT（PowerPoint）文件。代码使用了多个库，包括requests、BeautifulSoup、Pillow和python-pptx。
+艾瑞咨询持续深耕商业决策服务领域，是一家助力客户提升认知水平、盈利能力和综合竞争力的企业。本文档介绍了如何使用Python从艾瑞网爬取图片并将其生成为一个PPT（PowerPoint）文件。代码使用了多个库，主要包括re、requests、BeautifulSoup、Pillow和python-pptx。
 
 ## 需求明确
 我们的目标是从用户提供的艾瑞网文章页面中提取图片，并将这些图片合并到一个PPT文件中。PPT文件的每一页都包含一张图片，图片的大小与原始图片一致。
 
 ## 实现思路
 
-以下是实现目标的主要步骤：
+以下是实现目标的主要思路及步骤：
 1. 获取用户输入的网页URL。 
 2. 使用正则表达式从URL中提取文章编码。 
 3. 使用提取的文章编码构建基础URL，该URL用于获取图片。 
