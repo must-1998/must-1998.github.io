@@ -12,7 +12,7 @@ image:
 ---
 
 ```liquid
-{% include embed/{bilibili}.html id='{BV1yC4y1R7A6}' %}
+{% include embed/bilibili.html id='BV1yC4y1R7A6' %}
 ```
 
 微软于近期发布了最新的Windows11更新，其中包含了一项新的功能：Windows Copilot。其由微软联合OpenAI联合开发的大预言模型驱动，旨在为用户提供更加丰富的使用体验。
