@@ -3,7 +3,7 @@ title: Windows Copilot 升级尝鲜！
 author: xiaoma
 date: 2023-10-09 09:00:00 +0800
 categories: [ 技术资讯 ]
-tags: [ Windows, Copilot ]
+tags: [ Windows, Copilot, AI ]
 math: true
 mermaid: true
 image:
