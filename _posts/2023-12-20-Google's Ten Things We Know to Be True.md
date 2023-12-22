@@ -5,7 +5,7 @@ date: 2023-12-20 10:33:00 +0800
 categories: [随笔杂谈]
 tags: [谷歌十诫]
 image:
-  path: /assets/images/pexels-pew-nguyen-19482590
+  path: /assets/images/pexels-pew-nguyen-19482590.jpg
   lqip: /assets/images/lazyload.jpg
   alt: Focus on the heart and all else will follow.
 ---
