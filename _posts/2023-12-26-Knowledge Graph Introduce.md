@@ -1,7 +1,7 @@
 ---
 title: 知识图谱学习笔记
 author: xiaoma
-date: 2023-12-26 11:30:00 +0800
+date: 2023-12-26 10:30:00 +0800
 categories: [学习笔记]
 tags: [知识图谱, ChatGPT, NLP]
 image:
